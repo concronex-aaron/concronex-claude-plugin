@@ -26,4 +26,4 @@ Requested rental details and necessary renter contact information are sent to Co
 
 ## License
 
-The plugin package is licensed under MIT. This license covers these package files, not the hosted Concronex service or its backend. Concronex names and marks remain the property of their owners.
+The manifest, connector configuration, rental-booking skill and documentation are licensed under MIT. This license excludes brand assets and the hosted Concronex service and backend. Concronex names and marks remain the property of their owners.
