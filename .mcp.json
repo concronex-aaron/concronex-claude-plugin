@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "concronex": {
+      "type": "http",
+      "url": "https://claude.concronex.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "concronex",
+  "displayName": "Concronex",
+  "version": "1.0.0",
+  "description": "Find rental equipment, check availability and pricing, and manage eligible reservations through Claude.",
+  "author": { "name": "Concronex", "url": "https://concronex.com" },
+  "homepage": "https://concronex.com",
+  "license": "MIT",
+  "supportUrl": "https://concronex.com/support",
+  "privacyPolicyUrl": "https://concronex.com/privacy",
+  "termsOfServiceUrl": "https://concronex.com/terms"
+}

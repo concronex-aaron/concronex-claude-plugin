@@ -1,0 +1,10 @@
+.env
+.env.*
+*.pem
+*.key
+*.log
+*.zip
+node_modules/
+.claude/
+.DS_Store
+Thumbs.db
