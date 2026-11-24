@@ -10,7 +10,7 @@ Concronex travel tools search hotel and flight inventory supplied by Nuitée Con
 ## Before you start
 
 - The travel tools are `search_hotels`, `get_hotel_offers`, `search_flights`, `prepare_travel_booking`, `get_travel_booking`, `list_travel_bookings`, `prepare_travel_cancellation` and `cancel_travel_booking`. If they are not available on this connection, say that hotels and flights are not available through this Concronex connection yet. Never use the rental tools (`search_offerings`, `prepare_booking`, `confirm_booking`, `cancel_booking`, `get_booking`, `list_my_bookings`) for travel, and never pass a travel `bookingRef` to them.
-- Travel tools, including search, need the user's Concronex connection. If a tool returns `UNAUTHORIZED` or `INSUFFICIENT_SCOPE`, ask the user to allow or reconnect Concronex access, then retry.
+- Searching (`search_hotels`, `search_flights`) and reading offers (`get_hotel_offers`) need no Concronex connection, so search first and do not ask the user to connect before showing prices. Preparing, viewing and cancelling bookings need the user's Concronex connection. If a tool returns `UNAUTHORIZED` or `INSUFFICIENT_SCOPE`, ask the user to allow or reconnect Concronex access, then retry. An `offerRef` found before connecting still works after connecting.
 - `TRAVEL_CHANNEL_DISABLED`, `TRAVEL_BOOKINGS_DISABLED`, `TRAVEL_HOTELS_DISABLED` or `TRAVEL_FLIGHTS_DISABLED` means that part of travel is switched off. Say so plainly. Search may still work when booking is off; do not offer a booking path that was refused.
 
 ## You cannot book or pay
